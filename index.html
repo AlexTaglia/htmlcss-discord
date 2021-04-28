@@ -5,13 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/e019a78ecb.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/style.css">
     <title>Discord</title>
 </head>
 
 <body>
     <header>
-        <div class="container">
+        <div id="top" class="container">
 
             <!-- NAVBAR -->
             <nav class="navbar clearfix">
@@ -114,9 +115,14 @@
             <div class="col-big fl">
                 <h4>Il tuo posto per parlare</h4>
                 <div class="language">
-                    <img id="italian-flag" src="./img/ita.png" alt="italian language"><span> italiano </span>
+                    <img id="italian-flag" src="./img/ita.png" alt="italian language"><span> italiano &caron;</span>
                 </div>
-                <div class="social"></div>
+                <div class="social">
+                    <a href=""><i class="fab fa-twitter"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                    <a href=""><i class="fab fa-facebook"></i></a>
+                    <a href=""><i class="fab fa-youtube"></i></a>
+                </div>
             </div>
 
             <div class="col-small fl">
@@ -170,6 +176,22 @@
                 </ul>
             </div> 
     
+            <nav class="navbar clearfix">
+                <a href="#top">
+                    <ul class="logo fl">
+                        <li>
+                            <img src="./img/logo.svg" alt="logo discord">
+                        </li>
+                    </ul>
+                </a>
+  
+                <ul class="login fl">
+                    <li>
+                        <button class="btn-register">Registrati</button>
+                    </li>
+                </ul>
+            </nav>
+
         </div>
   
     </footer>

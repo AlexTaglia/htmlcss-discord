@@ -23,7 +23,7 @@ a{
     color: white;
 }
 
-.btn-login{
+.btn-login, .btn-register{
     padding: 8px 10px;
     border-radius: 25px;
     color: black;
@@ -55,8 +55,12 @@ a{
     background-color: #8ea1e1;
 }
 
-.btn-login:hover, .btn:hover{
+.btn-login:hover, .btn:hover, .btn-register:hover{
     box-shadow: 0 10px 8px #0000002c;
+}
+
+.btn-register:hover{
+    background-color: #a6b4e4;
 }
 
 .btn-white:hover{
@@ -190,12 +194,16 @@ p{
     background-repeat: no-repeat;
 }
 
+footer .container {
+    height: 500px;
+}
+
 footer{
     background-color: #23272a;
     color: white;
 }
 
-.col-big, .col-small{
+footer .col-big, footer .col-small{
     border-bottom: 1px solid #8ea1e1;
     height: 400px;
     padding: 15px;
@@ -226,4 +234,23 @@ footer h5, footer li{
     font-size: 15px;
     line-height: 28px;
 }
+
+footer ul{
+    padding-top: 15px;
+}
+
+footer .btn-register{
+    background-color: #8ea1e1;
+    color: white;
+    text-align: right;
+}
+
+footer .navbar .logo, footer .navbar .login{
+    width: 50%;
+}
+
+footer i{
+ font-size: 20px;
+ padding: 20px 15px 0 0;
+} 
 
