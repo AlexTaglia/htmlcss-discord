@@ -25,9 +25,10 @@ ul{
 
 li{
     display: inline-block;
+    color: white;
 }
 
-.container{
+.container {
     width: 1200px;
     margin: 0 auto;
 }
@@ -37,6 +38,7 @@ header{
     background-size: cover;
     background-position: center;
     height: 500px;
+    position: relative;
 }
 
 .navbar .logo, .navbar .login, .navbar .menu{
@@ -57,5 +59,19 @@ header{
 
 .navbar .login{
     text-align: right;
+}
+
+.jumbotron{
+    text-align: center;
+    color: white;
+}
+
+.centered-container {
+    width: 800px;
+    text-align: center;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
 }
 
