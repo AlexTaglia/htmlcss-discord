@@ -8,7 +8,6 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-
 .clearfix::after{
     content: "";
     display: table;
@@ -21,14 +20,7 @@ body{
 
 a{
     text-decoration: none;
-}
-
-.btn{
-    padding: 15px 30px;
-    border-radius: 25px;
-    border: none;
-    font-size: 20px;
-    font-weight: 700;
+    color: white;
 }
 
 .btn-login{
@@ -37,6 +29,15 @@ a{
     color: black;
     border: none;
     background-color: white;
+    font-weight: 700;
+}
+
+.btn{
+    padding: 15px 30px;
+    border-radius: 25px;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
 }
 
 .btn-white{
@@ -48,6 +49,14 @@ a{
 .btn-dark{
     color: white;
     background-color: rgb(31, 31, 31);
+}
+
+.btn-login:hover, .btn:hover{
+    box-shadow: 0 10px 8px #0000002c;
+}
+
+.btn-white:hover{
+    color: rgb(98, 98, 226);
 }
 
 ul{
@@ -66,7 +75,7 @@ li:last-child{
 
 .container {
     width: 1200px;
-    height: 500px;
+    height: 700px;
     margin: 0 auto;
     position: relative;
     padding-bottom: 30px;
@@ -76,7 +85,6 @@ header{
     background-image: url(../img/jumbo.png);
     background-size: cover;
     background-position: center;
-    /* height: 500px; */
     position: relative;
 }
 
@@ -102,6 +110,10 @@ header{
 
 .navbar .login{
     text-align: right;
+}
+
+.navbar a:hover{
+    text-decoration: underline;
 }
 
 .centered-container {
