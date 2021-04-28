@@ -51,6 +51,10 @@ a{
     background-color: #23272a;
 }
 
+.btn-violet{
+    background-color: #8ea1e1;
+}
+
 .btn-login:hover, .btn:hover{
     box-shadow: 0 10px 8px #0000002c;
 }
@@ -63,7 +67,7 @@ ul{
     list-style: none;
 }
 
-li{
+header li{
     display: inline-block;
     color: white;
     padding: 0 15px;
@@ -78,7 +82,6 @@ li:last-child{
     height: 700px;
     margin: 0 auto;
     position: relative;
-    padding-bottom: 30px;
 }
 
 header{
@@ -112,7 +115,7 @@ header{
     text-align: right;
 }
 
-.navbar a:hover{
+.navbar a:hover, footer a:hover{
     text-decoration: underline;
 }
 
@@ -172,8 +175,55 @@ p{
     padding-top: 38px;
 }    
 
-footer{
-    background-color: #23272a;
+.adventure-section{
+    text-align: center;
+    height: 250px;
 }
 
+.adventure-section h3{
+    margin-top: 35px;
+    padding-top: 35px;
+    font-size: 35px;
+    height: 100px;
+    background-image: url(../img/stars.svg);
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+footer{
+    background-color: #23272a;
+    color: white;
+}
+
+.col-big, .col-small{
+    border-bottom: 1px solid #8ea1e1;
+    height: 400px;
+    padding: 15px;
+}
+
+footer .col-big{
+    width: 32%;
+}
+
+footer .col-small{
+    width: 17%;
+}
+
+footer h4, footer h5{
+    color: #8ea1e1;
+}
+
+.col-big h4{
+    font-size: 35px;
+    padding-bottom: 35px;
+}
+
+#italian-flag{
+    width: 25px;
+}
+
+footer h5, footer li{
+    font-size: 15px;
+    line-height: 28px;
+}
 
